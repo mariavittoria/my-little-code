@@ -1,0 +1,15 @@
+label {
+    float: left;
+    width: 6em;
+    text-align: left;
+}
+input,
+text {
+    text-align: left;
+}
+input [type="submit"] {
+    margin-left: 0em;
+}
+div {
+    line-height: 200%;
+}

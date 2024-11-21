@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stile/style.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="php/login2.php" method="POST"> <!--collego la pagina php-->
+        <div>
+            <label for="username">User name</label>
+            <input type="text" name="username" id="username" required placeholder="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required placeholder="password di almeno 8 chr"
+                minlength="8">
+        </div>
+        <div>
+            <input type="submit" value="Login">
+        </div>
+    </form>
+    <input type="button" value="Registrazione" onclick="window.location.href='registrazione2.html'">
+
+</body>
+
+</html>

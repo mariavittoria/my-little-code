@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione</title>
+    <link rel="stylesheet" href="stile/style.css">
+</head>
+<body>
+    <h1>Registrazione</h1>
+    <form action="php/register.php" method="POST"> <!--collego la pagina php-->
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required placeholder="nome">
+        </div>
+        <div>
+            <label for="cognome">Cognome</label>
+            <input type="text" name="cognome" id="cognome" required placeholder="cognome">
+        </div>
+        <div>
+            <label for="indirizzo">Indirizzo</label>
+            <input type="text" name="indirizzo" id="indirizzo" required placeholder="indirizzo">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required placeholder="email@dominio">
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required placeholder="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required placeholder="password di almeno 8 chr" minlength="8">
+            <!-- se lascio text vedo la password mentre la scrivo -->
+        </div>
+        <div>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
