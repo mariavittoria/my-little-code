@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   nav.sidenav {
@@ -34,8 +34,8 @@ body {
   }
   
   .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 140px; /* Stessa larghezza della barra laterale + posizione a sinistra in px */
+    font-size: 28px; /* Testo aumentato per consentire lo scorrimento */
     padding: 0px 10px;
   }
   
